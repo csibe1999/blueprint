@@ -1,0 +1,5 @@
+sudo yum update -y \
+amazon-linux-extras install docker \
+yum install docker \
+service docker start \
+systemctl enable docker
