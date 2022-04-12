@@ -1,2 +1,3 @@
-start: aws autoscaling suspend-processes --auto-scaling-group-name <group>
-stop: aws autoscaling resume-processes --auto-scaling-group-name <group>
+start: aws autoscaling resume-processes --auto-scaling-group-name <group>
+stop: aws autoscaling suspend-processes --auto-scaling-group-name <group>
+
